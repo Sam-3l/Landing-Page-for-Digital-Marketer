@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1013676560062583');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +45,7 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://wa.link/p7m1ff"  tabindex="-1">Learn More</a>
+          <a class="nav-link" href="https://wa.link/p7m1ff"  tabindex="-1" onclick="fbq('trackCustom', 'LearnMore');">Learn More</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -43,8 +62,8 @@
                 <h1>Unlock Your Full Potential and grow with Eloka Onyeibor</h1>
                 <hr>
                 <b>Your Partner in Digital Growth and Personal Development</b><br>
-                <p><a href="https://shor.by/elomakeMOL"><button type="button" class="btn btn-outline-info">Get Started</button></a>
-                <a href="https://wa.link/p7m1ff"><button type="button" class="btn btn-outline-primary">Watch Free Webinar</button></a>
+                <p><a href="https://shor.by/elomakeMOL"><button type="button" class="btn btn-outline-info" onclick="fbq('trackCustom', 'GetStarted');">Get Started</button></a>
+                <a href="https://wa.link/p7m1ff"><button type="button" class="btn btn-outline-primary" onclick="fbq('trackCustom', 'WatchFreeWebinar');">Watch Free Webinar</button></a>
                 </p>
                 <p><em>Specialists in Digital Coaching, Digital Marketing, Content Creation</em></p>
             </div>
@@ -61,7 +80,7 @@
           <div class="col-12 p-0">
             <a href="https://wa.link/p7m1ff">
           <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">Get Access To Webinar</button>
+            <button class="btn btn-primary" type="button" onclick="fbq('trackCustom', 'GetAccessToWebinar');">Get Access To Webinar</button>
           </div></a>
         </div>
         </div>
@@ -73,7 +92,7 @@
   <div class="card-body">
     <h5 class="card-title">Expert Guidance</h5>
     <p class="card-text">Benefit from a wealth of experience in digital growth. Affiliate marketing and personal development.</p>
-    <a href="https://wa.link/p7m1ff" class="btn btn-primary">Explore</a>
+    <a href="https://wa.link/p7m1ff" class="btn btn-primary" onclick="fbq('trackCustom', 'Explore1');">Explore</a>
   </div>
                   </div>
             <div class="card overlay-content" style="width: 18rem;" id="two">
@@ -81,7 +100,7 @@
   <div class="card-body">
     <h5 class="card-title">Customized Solutions</h5>
     <p class="card-text">Receive tailored advice and strategies to meet your specific needs.</p>
-    <a href="https://wa.link/p7m1ff" class="btn btn-primary">Explore</a>
+    <a href="https://wa.link/p7m1ff" class="btn btn-primary" onclick="fbq('trackCustom', 'Explore2');">Explore</a>
   </div>
                   </div>
                   <div class="card overlay-content" style="width: 18rem;" id="three">
@@ -89,7 +108,7 @@
   <div class="card-body">
     <h5 class="card-title">Continuous Support</h5>
     <p class="card-text">Enjoy ongoing support to ensure your sustained success.</p><br>
-    <a href="https://wa.link/p7m1ff" class="btn btn-primary">Explore</a>
+    <a href="https://wa.link/p7m1ff" class="btn btn-primary" onclick="fbq('trackCustom', 'Explore3');">Explore</a>
   </div>
                   </div>
 
